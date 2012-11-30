@@ -31,4 +31,4 @@ jquery rating simple &amp; easy
 4. When form submit, You can access these values in the server-side script using the $_POST (PHP), Request.Form (Asp or Asp.net).
 
 5. view the demo
-http://www.chukeer.com/rating/example.html
+http://www.chukeer.com/plus/rating/example.html
