@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>jquery rating example</title>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="rating.js"></script>
+    <link rel="stylesheet" type="text/css" href="rating.css" />
+    <script type="text/javascript">
+        $(function ()
+        {
+            $('.rating').rating();
+
+            $('.ratingEvent').rating({ rateEnd: function (v) { $('#result').text(v); } });
+        });
+    </script>
+</head>
+
+<body style="padding:0px 20px;">
+    <p><b>Example</b></p>
+    Base example<br />
+    <input type="text" class="rating rating10" />
+
+    <br />
+
+    With a initial value 3<br />
+    <input type="text" class="rating rating18" value="3" />
+
+    <br />
+
+    Readonly, just for display result.<br />
+    <input type="text" class="rating rating8" readonly="readonly" value="3" />
+
+    <br />
+
+    Public Method, After voted trige the event "rateEnd"
+    <input type="text" class="ratingEvent rating9" value="5" />
+    <div><b id="result">5</b> start(s)</div>
+
+    <p>&nbsp;</p>
+
+    <b>How to use</b>
+    <p>1. Include necessary JS and CSS files</p>
+    <pre style="width:700px; background-color:#CCCCCC;">
+        <code>
+            &lt;script type="text/javascript" src="rating.js"&gt;&lt;/script&gt;
+            &lt;link rel="stylesheet" type="text/css" href="rating.css" /&gt;
+        </code>
+    </pre>
+
+    <p>2. Create a text box element (the class "rating10" contain a num "10", this will display 10 starts)</p>
+    <pre style="width:700px; background-color:#CCCCCC;">
+        <code>
+            &lt;input type="text" class="rating rating10" /&gt;
+        </code>
+    </pre>
+
+    <p>3. Fire plugin using jQuery selector</p>
+    <pre style="width:700px; background-color:#CCCCCC;">
+        <code>
+           $(function ()
+            {
+                $('.rating').rating();
+            });
+        </code>
+    </pre>
+
+    <p>4. When form submit, You can access these values in the server-side script using the $_POST (PHP), Request.Form (Asp or Asp.net).</p>
+
+    <p>&nbsp;</p>
+
+    <b>Download</b><br />
+    <a href="rating.1.0.zip">rating.1.0.zip</a>
+
+    <p>&nbsp;</p>
+    <b>Contact</b><br />
+    mahongtao_2000 [at] hotmail [dot] com
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+    <script type="text/javascript" src="http://s.chukeer.com/1.js"></script>
+
+</body>
+</html>
