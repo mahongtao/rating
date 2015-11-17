@@ -11,13 +11,13 @@
             <key>kind</key>
             <string>software-package</string>
             <key>url</key>
-            <string>http://dachutimes.com:2010/MyeAPPClient.ipa</string>
+            <string>http://dachutimes.com:2010/app/app.ipa</string>
           </dict>
         </array>
         <key>metadata</key>
         <dict>
           <key>bundle-identifier</key>
-          <string>com.chukeer.ios.MyeAPPClient</string>
+          <string>com.myechinese.ios.kaoyouyu2</string>
           <key>bundle-version</key>
           <string>0.0.1</string>
           <key>kind</key>
