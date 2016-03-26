@@ -18,9 +18,9 @@
         <key>metadata</key>
         <dict>
           <key>bundle-identifier</key>
-          <string>com.myechinese.ios.kaoyouyu</string>
+          <string>com.kaoyouyu.ya</string>
           <key>bundle-version</key>
-          <string>0.0.1</string>
+          <string>0.0.2</string>
           <key>kind</key>
           <string>software</string>
           <key>title</key>
