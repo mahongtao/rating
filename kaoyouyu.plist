@@ -17,13 +17,13 @@
         <key>metadata</key>
         <dict>
           <key>bundle-identifier</key>
-          <string>com.myechinese.ios.kaoyouyu</string>
+          <string>com.dachutimes.ios.kaoyouyu</string>
           <key>bundle-version</key>
-          <string>0.0.1</string>
+          <string>2.0.0</string>
           <key>kind</key>
           <string>software</string>
           <key>title</key>
-          <string>烤鱿鱼</string>
+          <string>烤鱿鱼四六级</string>
         </dict>
       </dict>
     </array>
